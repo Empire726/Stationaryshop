@@ -1,0 +1,48 @@
+.Carousel{
+    height: 85vh;
+    overflow: hidden;
+    background-image: url(../../images/bookimg\ \(1\).jpg);
+    background-repeat:repeat-x;    
+    
+}
+    
+
+
+.cara-1:hover{
+        height: 7vh;
+       background-color: #9ccdf1;
+       padding: 1rem 45% 2rem 45%;  
+       margin-top: 19rem;
+      
+    }
+.heading-p{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: solid(2px);
+    font-size:220%;
+    background:radial-gradient(
+    farthest-side at 40% 35%,
+    white 1%,
+    white 1%,
+    #838b91);
+   
+    font-weight: 700;  
+    /* background-color: burlywood; */
+
+}
+.cara-1{
+    height: 7vh;
+     padding: 1rem 15% 2rem 15%;  
+       margin-top: 19rem;
+}
+.cara-1 a:hover{
+    display: block;
+    color: blue;
+}
+
+.cara-1 a{
+        text-decoration: none;
+         color: white;
+    }

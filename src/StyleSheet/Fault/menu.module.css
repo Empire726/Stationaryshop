@@ -1,0 +1,149 @@
+.cat-menu{
+     width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-decoration: solid(2px);
+    font-size:250%;
+    background:radial-gradient(
+    farthest-side at 40% 35%,
+    white 1%,
+    white 1%,
+    #9ccdf1);
+   
+    font-weight: 700;
+}
+/* .logo-tag{
+    height: 65vh;
+    overflow: hidden;
+    background-image: url(../../images/brand\ copy.jpg);
+    } */
+
+
+
+.menu {
+    /* height: 24vh; */
+    width: auto;
+    margin-bottom: 7vh;
+    overflow: hidden;
+    margin-top: 10vh;
+    justify-content: center;
+    vertical-align:middle;
+
+}
+.img-tag{
+    height: 12vh;
+    width: 100%;
+    margin-bottom: 15vh;
+    overflow: hidden;
+    border:2px solid rgba(207, 18, 18, 0.13);
+    justify-content: center;
+    margin-left: 5px;
+    margin-right:5px ;
+    /* background-color: cyan; */
+}
+.img-example{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+
+}
+@media screen and (max-width:980px){
+    .cat-menu{
+     width: 100%;
+   
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+   
+    font-size:230%;
+  
+    font-weight: 650;
+}
+.img-tag{
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 13vh;
+    margin-left: 5px;
+    margin-right:5px ;
+   
+}
+
+    
+}
+@media screen and (max-width:700px){
+    .cat-menu{
+     width: 100%;
+   
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+   
+    font-size:200%;
+  
+    font-weight: 600;
+}
+.img-tag{
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+    margin-left: 4px;
+    margin-right:4px ;
+   
+}
+
+    
+}
+
+@media screen and (max-width:560px){
+    .cat-menu{
+     width: 100%;
+   
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+   
+    font-size:170%;
+  
+    font-weight: 600;
+}
+.img-tag{
+    height: 8vh;
+    width: 80%;
+    margin-bottom: 5vh;
+    margin-left: 3px;
+    margin-right:3px ;
+   
+}
+
+    
+}
+@media screen and (max-width:540px){
+    .menu{
+        /* background-color:#9ccdf1; */
+        background-color: rgba(255, 0, 0, 0.808);
+        margin-top: 0.1px;
+        margin-bottom: 0.2rem;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+    }
+    .cat-menu{
+     width: 100%;
+   
+    margin-top: 0.1px;
+    margin-bottom: 1rem;
+   
+    font-size:150%;
+  
+    font-weight: 600;
+}
+.img-tag{
+    height: 6vh;
+    width: 80%;
+    margin-bottom: 4vh;
+    margin-left: 2.5px;
+    margin-right:2.5px ;
+   
+}
+
+    
+}

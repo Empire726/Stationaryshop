@@ -1,0 +1,158 @@
+
+.footer{
+    padding: 4rem 7%;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* box-sizing: border-box; */
+}
+.image-logo{
+background-color:#fff ;
+
+padding: 1rem;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 1rem;
+    
+}
+
+.brand img{
+    width: 22.25rem;
+    
+}
+.brand span:hover{
+    color: chartreuse;
+}
+
+
+.brand span{
+    color: #696969;
+    margin-top: 1.5rem;
+    font-size: 155%;
+    font-family: cursive, sans-serif ;
+}
+
+.footer-menu-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.footer-menu-wrapper a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+   
+}
+.footer-menu-wrapper a:hover{
+    color: rgb(202, 202, 211);
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-menu a{
+    color: #696969;
+    text-decoration: none;
+    margin-bottom: 1rem 
+}
+.what-icon{
+    
+    /* background-color: green; */
+    color: black;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.icon-set{
+    height: 8vh;
+    width: 8vh;
+    color: green;
+    position: f;
+}
+
+@media screen and (max-width: 946px) {
+    .footer{
+        padding: 2rem 3%;
+    }
+
+    .brand{
+        width: 11rem;
+    }
+    .brand img{
+    width: 18.25rem;
+    
+}
+
+
+
+.brand span{
+    color: #696969;
+    margin-top: 1.5rem;
+    font-size: 125%;
+    font-family: cursive, sans-serif ;
+}
+}
+
+@media screen and (max-width: 666px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand{
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-menu-wrapper{
+        width: 100%;
+        justify-content: space-between;
+    } 
+
+
+    .brand img{
+    width: 20.25rem;
+    
+}
+
+
+
+.brand span{
+    color: #696969;
+    margin-top: 1.5rem;
+    font-size: 105%;
+    
+}
+}
+
+@media screen and (max-width: 540px) {
+    .footer-menu:nth-child(3){
+        padding-right: 8rem
+    }
+    .brand span{
+        margin-top: 0.5rem;
+    font-size: 105%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */

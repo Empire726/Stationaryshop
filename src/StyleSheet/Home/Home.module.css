@@ -1,0 +1,147 @@
+
+
+.hom{
+    width: 100%;
+    height: auto;
+    /* display: block; */
+    display: flex;
+    margin: 5rem 0rem 3rem 0rem;
+    
+   
+}
+.heading-p{
+    margin-top: 11vh;
+    align-content: center;
+    /* background-color: rgb(122, 21, 21); */
+}
+
+.image-1{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    
+}
+.img-tag{
+   height: 80vh;
+
+}
+.img-tag img{
+   height: 80vh;
+
+}
+
+
+.cara-1:hover{
+        height: 7vh;
+       background-color: #9ccdf1;
+       padding: 1rem 45% 2rem 45%;  
+       margin-top: 19rem;
+      
+    }
+.heading-p{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+    font-size:220%;
+    background-color: #9ccdf1;
+   
+    font-weight: 700;  
+    
+}
+.heading-p1{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: solid(2px);
+    font-size:220%;
+    background:radial-gradient(
+    farthest-side at 40% 35%,
+    white 1%,
+    white 1%,
+    #2a85ca);
+   
+    font-weight: 700;  
+    
+}
+.cara-1{
+    height: 7vh;
+     padding: 1rem 45% 2rem 45%;  
+       margin-top: 19rem;
+}
+.cara-1 a:hover{
+    display: block;
+    color: blue;
+}
+
+.cara-1 a{
+        text-decoration: none;
+         color: white;
+    }
+
+    @media screen and (max-width:420px) {
+        
+        .heading-p{
+    
+   
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    font-size:150%;
+    background:radial-gradient(
+    farthest-side at 50% 35%,
+    white 1%,
+    white 1%,
+    #9ccdf1);
+   
+    font-weight: 600;  
+    
+}
+    }
+
+     @media screen and (max-width:760px) {
+     .heading-p1{
+   font-size:200%;
+    font-weight: 650;       
+}
+        
+    }
+
+    @media screen and (max-width:540px) {
+       .heading-p{
+    margin-top: 1.8rem!important;
+    margin-bottom: 0.1rem!important;
+    background:radial-gradient(
+    farthest-side at 55% 35%,
+    rgba(0, 0, 0, 0.37) 1%,
+    rgba(0, 0, 0, 0.685) 1%,
+     #000 );
+      
+       }
+  
+
+       .heading-p span{
+           color: #fff;
+           font-size: 100%;
+           font-weight: 400;
+       }
+       
+
+       
+       
+    }
+
+
+    @media screen and (max-width:420px) {
+   
+}
+
+/* -----------------------------adder=----------------- */
+   .adder{
+       box-sizing: border-box;
+       margin-top: 11vh;
+   }

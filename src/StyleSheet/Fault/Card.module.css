@@ -1,0 +1,110 @@
+.card-div{
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* box-shadow: 0px 0px 3px -0.1px; */
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 5px;
+    width: fit-content;
+    height: auto;
+     display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+    
+}
+
+
+.container {
+  
+  max-width: 300px;
+   box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+     margin: 1rem;
+    margin-top: 0.5rem;
+
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute; 
+  background: #ffffff;
+  max-width: 100%;
+  transition: .3s ease-in;
+  background-repeat: no-repeat;
+  height: 10vh;
+  text-align: center;
+  border-radius: 0px 0px 20px 0px;
+  
+}
+.overlay p{
+    margin: 0px 2px;
+}
+.container:hover .overlay {
+  opacity: 0.8;
+}
+.overlay:hover{
+     background-color: blue;
+}
+.container:hover{
+
+    transform: scale(1.04);
+    box-shadow: 0px 0px 15px -5px;
+}
+.card-body{
+    color: rgb(32, 32, 201); 
+    text-align: center;
+    vertical-align: middle;
+   
+    
+    
+
+      
+}
+
+.btn p{
+    color:rgb(32, 32, 201);
+    font-size: 130%; 
+    text-decoration: none;
+    text-align: center;
+     vertical-align: middle;
+     margin-bottom: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.container:hover .overlay{
+    background-color: blue;
+}
+.overlay a{
+    text-decoration: none;
+}
+.container:hover .btn p{
+    color: #fff;
+}
+.container:hover .card-body{
+    color: #fff;
+}
+
+ @media screen and (max-width:980px) {
+
+    .overlay {
+ 
+  height: 8vh;
+  border-radius: 0px 0px 20px 0px;
+  
+}
+.btn p{
+
+    font-size: 120%; 
+     margin-left: 25px;
+     margin-right: 25px;
+}
+     
+ }

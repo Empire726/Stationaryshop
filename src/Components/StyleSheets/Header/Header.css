@@ -1,0 +1,399 @@
+.Navbar{
+    background: linear-gradient(90deg, rgb(109, 98, 192) 100%, rgba(73, 63, 252, 1) 0%);
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 1000000;
+    /* background: transparent; */
+}
+
+
+.navbar-logo{
+    /* justify-self: center; */
+    
+    width: 55%;
+    cursor: pointer;
+}
+
+.fa-react{
+   
+    font-size: 1.6rem;   
+}
+.rightside{
+    margin-left: 20px;
+}
+.rightside span .navlink {
+    text-decoration: none;
+    margin-left: 20px;
+   
+}
+
+ .rightside .no-of-products {
+    background: #f57224;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1rem;
+    position: absolute;
+    top: 6px;
+    /* left: -5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    margin-left: 3rem;
+    justify-content: flex-end;
+   
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: .5rem  1rem;
+}
+
+.nav-item{
+    line-height: 40px;
+    margin-left: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.nav-item::after{
+    content: "";
+    display:block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease , background-color 0.5s ease ;
+}
+
+.nav-item:hover::after{
+  width: 100%;
+  background: #ffdd42;
+}
+
+
+
+.nav-links:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all .2s ease-out;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:1024px){
+    .navbar-logo{
+    width: 50%;
+    cursor: pointer;
+}
+.rightside span .navlink {
+    text-decoration: none;
+    margin-left: 2px;
+   
+}
+.rightside .no-of-products {
+  
+    font-size: 15px;
+    font-weight: 600;
+  
+    width: 25px;
+    height: 25px;
+    border-radius: 1rem;
+    position: absolute;
+    top: 6px;
+
+}}
+
+@media screen and (max-width: 960px) {
+    .Navbar{
+       
+        left: 0;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        left:-100%;
+        transition: all .5s ease;
+        border-top: 1px solid #fff;
+        margin-left: 0px;
+    }
+
+
+
+    .nav-menu.active{
+        background: #6668f4;
+        left: 0;
+        transition: all .5s ease;
+        z-index: 1;
+    }
+
+    .nav-links{
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover{
+        background-color: #7577fa;
+        border-radius: 0;
+    }
+    .rightside span .navlink {
+    text-decoration: none;
+    margin-left: 40px;
+   
+}
+    .rightside .no-of-products {
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1rem;
+    top: 6px;
+    
+   
+    
+    }
+
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    
+    .fa-times{
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 1rem 2rem 1rem 0rem;
+        border-radius: 4px;
+        width: 95%;
+        background: #fad934;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .nav-links-mobile:hover{
+        background: #fff;
+        color: #6568f4;
+        transition: 250ms;
+    }
+
+    Button {
+        display: none;
+    }
+}
+@media screen and (max-width:840px) {
+     .rightside span .navlink {
+    text-decoration: none;
+    margin-left: 20px;
+   
+}
+    .rightside .no-of-products {
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1rem;
+    top: 6px;
+    
+    
+}}
+@media screen and (max-width:720px){
+    
+
+     .navbar-logo{
+    width: 100%;
+    cursor: pointer;
+}
+  .rightside span .navlink {
+    text-decoration: none;
+    margin-left: 2px;
+   
+}
+}
+
+@media screen and (max-width:620px){
+    
+  .rightside span .navlink {
+    text-decoration: none;
+    margin-left: -20px;
+   
+}
+}
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbox .leftside {
+    width: 80px;
+    height: 80px;
+}
+
+.navbox .leftside img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbox .rightside {
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbox .rightside span {
+    margin-right: 10px;
+}
+
+
+
+.rightside .no-of-products {
+  
+ 
+    
+    top: 6px;
+   right: 60px;
+    
+}
+
+/* .logout-btn {
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: hidden;
+    background-color: #2eca8b;
+    margin-left: 10px;
+} */
+@media screen and (max-width:550px) {
+    .Navbar{ position: fixed;
+          background: linear-gradient(90deg, black 100%, black 0%);
+    width: 100%;
+        }
+   
+
+.fa-react{
+   
+    font-size: 1.6rem;   
+}
+.rightside{
+    margin-left: 20px;
+}
+.rightside span .navlink svg{
+color: #fff;
+width: 30px;
+margin-right: 20px;
+
+}
+
+ .rightside .no-of-products {
+    background:red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1.5rem;
+   margin-right: -50px;
+    top: 4px;
+    
+   
+}
+.menu-icon{
+       
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 30%;
+        transform: translate(10%, 50%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav-menu{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        left:-100%;
+        transition: all .5s ease;
+        border-top: 1px solid #fff;
+        margin-left: 0px;
+    }
+    .nav-menu.active{
+        background: #000;
+    }
+
+    .nav-links:hover{
+        background-color: #00aeda;
+        border-radius: 0;
+    }
+    .image-c{
+        width: 100% ;
+        height: fit-content;
+    }
+     
+    .navbar-logo{
+        display: none;
+        
+    }
+  
+}
+@media screen and (max-width:420px) {
+    .navbar-logo{
+        width: 110%;
+        
+    }
+    
+}

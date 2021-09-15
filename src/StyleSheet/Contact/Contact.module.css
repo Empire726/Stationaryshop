@@ -1,0 +1,23 @@
+.heading{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.can a{
+    text-decoration: none;
+    
+}
+
+.paragraph span{
+    color:  #11519b;
+    font-weight: 500;
+}
+.paragraph h5{
+    font-weight: 200;
+    /* font-family:cursive; */
+    font-size: 150%;
+}
+.paragraph{
+    margin: 3rem;
+     justify-content: space-between;
+}

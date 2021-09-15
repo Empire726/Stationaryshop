@@ -1,0 +1,32 @@
+/* .material-body{
+    padding: 0%;
+    margin: 5%;
+    height: auto;
+    background-color: aqua;
+    width: auto;
+}
+.material-view{
+    display: flex ;
+    row-gap: 0.3rem;
+    column-gap: 0.3rem; 
+}
+.item1{
+    
+    border: 1px solid black;
+}
+
+.item1,
+.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    
+    border: 2px solid black;
+
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    
+    overflow: hidden;
+    justify-content:space-around;
+        
+    margin: 15px;
+    padding: 15px;  
+
+} */
